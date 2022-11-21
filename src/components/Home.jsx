@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom';
 
-import Welcome from './Welcome'
+import Wellcome from './Wellcome'
 import NavBar from './NavBar';
 import ChiSiamo from './ChiSiamo'
 import Camere from './Camere'
@@ -14,7 +14,7 @@ function Home() {
         <React.Fragment>
             <NavBar />
             <Routes>
-                <Route path="/wellcome" element={<Welcome />} />
+                <Route path="/wellcome" element={<Wellcome />} />
                 <Route path="/chiSiamo" element={<ChiSiamo />} />
                 <Route path="/camere" element={<Camere />} />
                 <Route path="/contattaci" element={<Contattaci />} />

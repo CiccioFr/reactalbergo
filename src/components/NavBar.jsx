@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 function NavBar() {
   return (
@@ -9,11 +9,11 @@ function NavBar() {
         {/* <header className={classes.header}> <h2> - header - </h2> </header> */}
         <nav>
           <ul>
-            <li> <Link to="/welcome"> Link - welcome </Link > </li>
-            <li> <Link to="/chiSiamo"> Link - chiSiamo </Link > </li>
-            <li> <Link to="/camere"> Link - camere </Link > </li>
-            <li> <Link to="/contattaci"> Link - contattaci </Link > </li>
-            <li> <Link to="/doveSiamo"> Link - doveSiamo </Link > </li>
+            <li> <Link to="/wellcome"> NavLink - wellcome </Link > </li>
+            <li> <NavLink to="/chiSiamo"> NavLink - chiSiamo </NavLink > </li>
+            <li> <NavLink to="/camere"> NavLink - camere </NavLink > </li>
+            <li> <NavLink to="/contattaci"> NavLink - contattaci </NavLink > </li>
+            <li> <Link to="/doveSiamo"> NavLink - doveSiamo </Link > </li>
           </ul>
         </nav>
       </div>
