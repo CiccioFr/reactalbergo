@@ -1,0 +1,8 @@
+.homepage{
+    text-align: center;
+}
+
+.classe:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+}

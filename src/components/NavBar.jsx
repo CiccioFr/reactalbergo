@@ -1,19 +1,18 @@
-import React from 'react'
-import { Link, NavLink } from 'react-router-dom'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import './navbar.css';
 
 function NavBar() {
   return (
     <React.Fragment>
-      <div>NavBar</div>
       <div>
         {/* <header className={classes.header}> <h2> - header - </h2> </header> */}
         <nav>
           <ul>
-            <li> <Link to="/wellcome"> NavLink - wellcome </Link > </li>
-            <li> <NavLink to="/chiSiamo"> NavLink - chiSiamo </NavLink > </li>
-            <li> <NavLink to="/camere"> NavLink - camere </NavLink > </li>
-            <li> <NavLink to="/contattaci"> NavLink - contattaci </NavLink > </li>
-            <li> <Link to="/doveSiamo"> NavLink - doveSiamo </Link > </li>
+            <li> <NavLink to="/cinema/cinema"> - Cinema - </NavLink > </li>
+            <li> <NavLink to="/albergo/wellcome"> Albergo </NavLink > </li>
+
+            <li> <NavLink to="/percorsoUrlCcc"> Pagina di prova </NavLink > </li>
           </ul>
         </nav>
       </div>

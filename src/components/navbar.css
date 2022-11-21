@@ -1,0 +1,26 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+    margin: 30px;
+    text-align: center;
+    padding: 30px;
+    overflow: hidden;
+    background-color: aquamarine;
+    border: 3px solid;
+}
+
+li {
+    color: brown;
+    background: rgb(247, 170, 142);
+    display: inline;
+    float: center;
+
+    /* display: block; */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
